@@ -35,7 +35,7 @@ class MusicLibraryController
       when 'play song'
         play_song
       else
-        "Type in jia valid request please"
+        
       end
     end
   end
