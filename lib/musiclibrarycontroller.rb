@@ -32,7 +32,7 @@ class MusicLibraryController
       elsif input == "play song"
         play_song
       else
-        puts "gimme input"
+        puts "Type in a valid request please"
       end
     end
   end
