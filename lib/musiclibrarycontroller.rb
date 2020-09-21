@@ -20,7 +20,7 @@ class MusicLibraryController
     if input == "list songs"
       list_songs
     else
-      input = gets.chomp
+      puts "gimme input"
     end
   end
 
