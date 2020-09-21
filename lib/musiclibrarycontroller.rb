@@ -6,7 +6,7 @@ class MusicLibraryController
   end
 
   def call
-    input = ""
+    input = nil
     while input != "exit"
       puts "Welcome to your music library!"
       puts "To list all of your songs, enter 'list songs'."
@@ -25,7 +25,6 @@ class MusicLibraryController
         list_artists
       elsif input == "list genres"
         list_genres
-      binding.pry
       else
         puts "gimme input"
       end
