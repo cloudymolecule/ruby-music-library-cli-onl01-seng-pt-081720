@@ -35,7 +35,7 @@ class MusicLibraryController
       when 'play song'
         play_song
       else
-        
+        puts "nope, try again"
       end
     end
   end
