@@ -19,23 +19,20 @@ class MusicLibraryController
       puts "What would you like to do?"
       input = gets.chomp
 
-      case input
-      when 'list songs'
+      if input == "list songs"
         list_songs
-      when 'list artists'
+      elsif input == "list artists"
         list_artists
-      when 'list genres'
+      elsif input == "list genres"
         list_genres
-      when 'list artists'
-        list_artists
-      when 'list artist'
+      elsif input == "list artist"
         list_songs_by_artist
-      when 'list genre'
+      elsif input == "list genre"
         list_songs_by_genre
-      when 'play song'
+      elsif input == "play song"
         play_song
       else
-        puts "nope, try again"
+        
       end
     end
   end
