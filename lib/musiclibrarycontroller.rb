@@ -32,7 +32,7 @@ class MusicLibraryController
       elsif input == "play song"
         play_song
       else
-        
+        "Try something else."
       end
     end
   end
