@@ -24,6 +24,7 @@ class MusicLibraryController
       else
         puts "gimme input"
       end
+    end
   end
 
   def list_songs
